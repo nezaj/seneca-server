@@ -1,0 +1,30 @@
+<html>
+<body>
+  Hello World!
+  <script>
+    // fetch('http://localhost:8000/session/signup', {
+    //   method: 'POST', 'headers': {'content-type': 'application/json'},
+    //   body: JSON.stringify({email: 'joeaverbukh@gmail.com', password: 'alwaysatiger'})
+    // }).then(x => {
+    //   debugger
+    // }, (x) => {
+    //   debugger
+    // })
+    fetch('http://localhost:8000/session/signin', {
+      method: 'POST', 'headers': {'content-type': 'application/json'},
+      body: JSON.stringify({email: 'joeaverbukh@gmail.com', password: 'alwaysatiger'})
+    }).then(x => {
+      debugger
+    }, (x) => {
+      debugger
+    })
+    // fetch('http://localhost:8000/session/signout', {
+    //   method: 'POST', 'headers': {'content-type': 'application/json'},
+    // }).then(x => {
+    //   debugger
+    // }, (x) => {
+    //   debugger
+    // })
+  </script>
+</body>
+</html>

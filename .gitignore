@@ -1,0 +1,9 @@
+# Node Libraries
+node_modules/
+
+# Notes for myself
+TODOS.md
+scratch.js
+
+# Detritus
+.DS_Store
